@@ -105,6 +105,10 @@
       choices: [
         questionNationality,
         {
+          title: "Call his phone and demand answers",
+          response: "You try calling Wes, but his voice agent answers: I AM WINE SCHFAUR?"
+        },
+        {
           title: "Send him some real thermal paste",
           response: "You send Wes actual thermal paste, but the CPUs are already ruined!",
           choices: [
@@ -119,7 +123,7 @@
                 questionNationality,
                 {
                   title: "Walk away shaking your head",
-                  response: "Good idea, Wes can't be convinced otherwise. Scott sets up an American mirror of the site and fixes this issue."
+                  response: "Good idea, Wes can't be convinced otherwise. Scott sets up an American mirror of the site without the maple syrup, but this page still doesn't work :("
                 }
               ]
             }
@@ -161,7 +165,17 @@
         },
         {
           title: "Ask him to fix it",
-          response: "He apologizes and fixes the page, but later he refactors the codebase and breaks it again."
+          response: "You ask him if he's able to take a look at the issue, but he's stuck at 99.99% on a CSS battle and can't do it right now",
+          choices: [
+            {
+              title: "Help him get to 100%",
+              response: "You work together and get the last few pixels aligned. Scott apologizes for refactoring and fixes the page, but later he refactors the codebase and breaks it again :("
+            },
+            {
+              title: "Tell him to use SynHax instead",
+              response: "He switches to SynHax and completes a challenge, then apologizes for refactoring and fixes the page. Later he refactors the codebase and breaks it again :("
+            }
+          ]
         },
         fixItYourself,
         {
