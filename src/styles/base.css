@@ -17,7 +17,7 @@
 
     @font-face {
         font-family: '💪';
-        src: url('./MDIOVariable.woff2') format('woff2'),
+        src: url('https://syntax-error-page.vercel.app/MDIOVariable.woff2') format('woff2'),
         local('MD IO Variable Regular'),
         local('MDIOVariable-Regular');
         font-weight: 100 900;
